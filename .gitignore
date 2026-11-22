@@ -1,0 +1,19 @@
+# build output
+build/
+*.o
+*.obj
+*.exe
+*.lst
+*.map
+
+# runtime data (keep the folder, ignore the saves)
+saves/*
+!saves/.gitkeep
+
+# editor and OS junk
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

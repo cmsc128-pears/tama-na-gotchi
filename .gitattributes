@@ -1,0 +1,9 @@
+* text=auto
+Makefile            text eol=lf
+*.sh                text eol=lf
+*.asm               text eol=lf
+*.inc               text eol=lf
+assets/ascii/*.txt  text eol=lf
+tests/expected/*    text eol=lf
+tests/scripts/*     text eol=lf
+*.exe               binary
